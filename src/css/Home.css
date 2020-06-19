@@ -1,3 +1,5 @@
+/********************** slider home *****************/
+
 main{
   padding: 0 130px ;
   background-color: #f7f7f7;
@@ -63,4 +65,15 @@ input[name="r"]{
 }
 #r3:checked ~ .s1{
   margin-left: -66.6%;
+}
+
+/******************* flex content ******************* */
+
+
+
+/*******************News flex *****************/
+
+.Home-news-item{
+  display: flex;
+  flex-direction: column;
 }

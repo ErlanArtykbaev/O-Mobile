@@ -15,6 +15,7 @@ function NavBar(){
         <NavLink className='NavBar-header-link' to='/' exact style={{textDecoration: 'none'}}>Home</NavLink>
 			  <NavLink className='NavBar-header-link' to='/news' style={{textDecoration: 'none'}}>News</NavLink>
 				<NavLink className='NavBar-header-link' to='/business' style={{textDecoration: 'none'}}>Business</NavLink>
+        <NavLink className='NavBar-header-link' to='/pocket' style={{textDecoration: 'none'}}>Pocket</NavLink>
 				
       </header>
     </div>
