@@ -1,0 +1,25 @@
+
+.NavBar-header {
+  background-color:white;
+  min-height: 10vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.NavBar-header-link{
+  padding: 10px 10px;
+  margin:0 5px;
+  font-size:24px;
+  color: black;
+}
+
+.NavBar-header-logo{
+  width: 120px;
+}
+.NavBar-header-link span{
+  text-decoration: none;
+}
+

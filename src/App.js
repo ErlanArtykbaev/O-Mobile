@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
-import './App.css'
 import Home from './Components/Home'
 import News from './Components/News'
 import Business from './Components/Business'
