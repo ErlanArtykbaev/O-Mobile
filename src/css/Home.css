@@ -1,6 +1,6 @@
 /********************** slider home *****************/
 main{
-  padding: 0 130px ;
+  padding: 0 100px;
   background-color: #E5E5E5;
 }
 
@@ -192,4 +192,37 @@ input[name="r"]{
 
 .Home-news-last-link:hover{
   background-color: #ff2faf;
+}
+
+/********* adaptive mobile *************/
+
+@media screen and (max-width: 750px){
+  main{
+    padding: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .Home-news-item{
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .Home-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-navigation{
+    left: 25%;
+  }
+
+  .Home-news-components{
+    overflow: hidden;
+  }
+
+  .Home-news-item{
+    margin: 0 7px;
+  }
 }

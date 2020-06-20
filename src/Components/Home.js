@@ -24,7 +24,7 @@ function Home(){
         <div className="Home-slider">
           
           <div className="Home-slides">
-            <input type="radio" name="r" id="r1" checked />
+            <input type="radio" name="r" id="r1" defaultChecked />
             <input type="radio" name="r" id="r2" />
             <input type="radio" name="r" id="r3" />
             <div className="Home-slide s1">

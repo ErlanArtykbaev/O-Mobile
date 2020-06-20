@@ -6,6 +6,10 @@ import News from './Components/News'
 import Business from './Components/Business'
 import Pocket from './Components/Pocket'
 
+/**
+ * if you are reading it, i did it myself :)
+ */
+
 function App() {
   return (
     <>

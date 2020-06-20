@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 
 .NavBar-header {
   background-color:white;
@@ -6,7 +9,6 @@
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  overflow: hidden;
 }
 
 .NavBar-header-link{
@@ -23,3 +25,34 @@
   text-decoration: none;
 }
 
+.NavBar-burger{
+  display: none;
+  color: black;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px){
+  .NavBar-header-link:not(:first-child){
+    display: none;
+  }
+
+  .NavBar-burger{
+    display: block;
+  }
+
+  .NavBar-header.responsive{
+    position: relative;
+  }
+
+  .NavBar-header.responsive .Navbar-burger{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .NavBar-header.responsive .NavBar-header-link{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

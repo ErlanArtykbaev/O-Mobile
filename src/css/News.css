@@ -1,13 +1,17 @@
 .News-main{
-  
   background-color: #E5E5E5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.News-main-title{
+  text-align: center;
+  font-size: 34px;
 }
 
 .News-comp-item{
-  width: 80%;
+  width: 70%;
   display: flex;
   border-radius: 10px;
   background-color: white;
@@ -16,11 +20,12 @@
 }
 
 .News-item-box-img{
-  width: 30%;
+  width: 20%;
 }
 
 .News-item-img{
   width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -28,13 +33,8 @@
 .News-item-box-text{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin-left: 20px;
-}
-
-.News-item-box-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .News-item-box-second{
@@ -43,7 +43,7 @@
 }
 
 .News-item-box-icon{
-  width: 40px;
+  width: 50px;
 }
 
 .News-item-icon{
@@ -53,4 +53,20 @@
 
 .News-item-div-title{
   text-align: center;
+}
+
+.News-item-title{
+  font-size: 23px;
+}
+
+.News-item-box-date{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendar-icon{
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
