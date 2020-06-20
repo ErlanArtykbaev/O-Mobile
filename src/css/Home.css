@@ -2,7 +2,7 @@
 
 main{
   padding: 0 130px ;
-  background-color: #f7f7f7;
+  background-color: #f7f8f8;
 }
 
 .Home-slider{
@@ -68,12 +68,118 @@ input[name="r"]{
 }
 
 /******************* flex content ******************* */
+.Home-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  
+}
 
+.Home-content-item{
+  min-width: 280px;
+  max-width: 580px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px;
+}
 
+.Home-comp-text{
+  padding: 15px;
+}
+
+.Home-comp-text h4{
+  text-align: center;
+}
+
+.Home-content-item img{
+  width: 100%;
+  height: 100%;
+}
+
+.Home-comp-item-title-link{
+  display: flex;
+  padding: 0px;
+  height: 70px;
+  width: 100%;
+  background-color: #FF009E;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Home-comp-low-link{
+  margin: 15px auto;
+  width: 100px;
+  height: 28px;
+  text-align: center;
+  background-color: #FF009E;
+  border-radius: 4px;
+}
 
 /*******************News flex *****************/
 
-.Home-news-item{
+.Home-news{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+.Home-news-title{
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.Home-news-components{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Home-news-item{
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  max-width: 350px;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+.Home-news-item:hover{
+  -moz-box-shadow:5px 5px 10px #bdbdbd;
+/* Chrome и Safari */
+  -webkit-box-shadow:5px 5px 10px #bdbdbd;
+/* Код CSS тени блока для абсолютно всех браузеров новых версий */
+  box-shadow:5px 5px 10px #bdbdbd;
+  background-color: white;
+}
+
+.Home-news-item-text{
+  color: #000;
+}
+
+.Home-news-item-img{
+  width: 100%;
+}
+
+.Home-news-last-link{
+  position: relative;
+  width: fit-content;
+  padding:  20px ;
+  margin: 10px ;
+  left: 45%;
+  background-color: #FF009E;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.Home-news-last-link:hover{
+  background-color: #ff2faf;
 }

@@ -10,10 +10,10 @@ function HomeCompItem(props){
         <div>
           <img src={props.image} alt=""></img>
         </div>
-        <div>
-          <NavLink to={props.titleToThis}>{props.titleItem}</NavLink>
+        <div className="Home-comp-item-title-link">
+          <NavLink style={{textDecoration: 'none', color: 'white'}} to={props.titleToThis}>{props.titleItem}</NavLink>
         </div>
-        <div>
+        <div className="Home-comp-text">
           <h4>{props.titlePar}</h4>
           <p>{props.textOne}</p>
           <p>{props.textTwo}</p>
@@ -21,9 +21,9 @@ function HomeCompItem(props){
           <p>{props.textFour}</p>
           <p>{props.textFive}</p>
         </div>
-        <div>
-          <NavLink to={props.titleToThis}>{props.linkButton}</NavLink>
-        </div>
+        <div className={props.lowLink}>
+          <NavLink style={{textDecoration: 'none', color: 'white'}} to={props.titleToThis}>{props.linkButton}</NavLink>
+        </div>  
         
       </div>
     </>
