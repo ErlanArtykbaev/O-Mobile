@@ -98,11 +98,8 @@ function Home(){
               lowLink="Home-comp-low-link"
             />
           </div>
-          
-          
-          
-        </div>
 
+        </div>
 
         <div className="Home-news">
           <span className="Home-news-title">Новости и акции</span>
@@ -123,7 +120,10 @@ function Home(){
               to="/news"
             />
           </div>
-          <NavLink className="Home-news-last-link" to="/news" style={{textDecoration: 'none'}}>Все новости</NavLink>
+          <div className="Home-news-last">
+            <NavLink className="Home-news-last-link" to="/news" style={{textDecoration: 'none'}}>Все новости</NavLink>
+          </div>
+          
         </div>
       </main>
       <Footer />

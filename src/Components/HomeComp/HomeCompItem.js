@@ -22,7 +22,16 @@ function HomeCompItem(props){
           <p>{props.textFive}</p>
         </div>
         <div className={props.lowLink}>
-          <NavLink style={{textDecoration: 'none', color: 'white'}} to={props.titleToThis}>{props.linkButton}</NavLink>
+          <NavLink 
+            style={{
+              textDecoration: 'none', 
+              color: '#FF009E'
+            }} 
+            to={
+              props.titleToThis
+            }>
+              {props.linkButton}
+          </NavLink>
         </div>  
         
       </div>
