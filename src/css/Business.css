@@ -1,0 +1,154 @@
+a{
+  text-decoration: none;
+  
+}
+
+.Bus-main{
+  padding: 0 100px;
+  background-color: #E5E5E5;
+}
+
+/******** first ************/
+.Bus-comp1{
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Bus-comp1-img-box{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Bus-comp1-img{
+  width: 100%;
+}
+
+.Bus-comp1-title{
+  width: 100%;
+  background-color: #FF009E;
+  font-size: 34px;
+  text-align: center;
+  padding: 30px 0;
+}
+.Bus-comp1-title a{
+  color: white;
+}
+
+.Bus-comp1-comment{
+  color: #494949;
+  text-align: center;
+}
+
+.Bus-comp1-text{
+  padding: 15px 30px ;
+}
+.Bus-comp1-text h4{
+  text-align: center;
+}
+.Bus-comp1-text p{
+  color: #333;
+}
+
+/**************second***********/
+
+.Bus-comp2{
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.Bus-comp2 h3{
+  text-align: center;
+}
+.Bus-comp2 span{
+  padding-left: 43%;
+  color: #333;
+}
+.Bus-comp2 p span{
+  color: #000;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 60%;
+  border: 2px solid #FF009E;
+}
+
+.Bus-comp2 a{
+  width: fit-content;
+  border: 1px solid #FF009E;
+  color: #FF009E;
+  border-radius: 10px;
+  padding: 7px 20px;
+  position: relative;
+  left: 44%;
+  transition: 0.4s;
+}
+.Bus-comp2 a:hover{
+  background-color: #FF009E;
+  color: white;
+}
+
+
+/********third *************/
+
+.Bus-comp3{
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.Bus-comp3-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Bus-comp3-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Bus-comp3-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  margin: 5px 0;
+  padding: 1px 10px;
+  transition: 0.7s;
+  color: black;
+}
+
+.Bus-comp3-flex:hover{
+  border: 1px solid black;
+}
+
+.download{
+  width: 25px;
+  height: 25px;
+  margin: auto 0;
+}
+
+@media screen and (max-width: 900px){
+  .Bus-main{
+    padding: 0 5px;
+    
+  }
+}
+
+@media screen and (max-width: 600px){
+  .Bus-comp2 a{
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 370px){
+  .Bus-comp2 a{
+    left: 27%;
+  }
+}

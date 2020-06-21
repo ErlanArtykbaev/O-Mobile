@@ -4,22 +4,21 @@ a{
 
 .NavBar-header {
   background-color:white;
-  min-height: 10vh;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
+  height: 80px;
+  margin: auto;
+  
 }
 
 .NavBar-header-link{
-  padding: 10px 10px;
-  margin:0 5px;
-  font-size:24px;
+  padding: 14px 16px;
+  font-size:22px;
   color: black;
 }
 
 .NavBar-header-logo{
   width: 120px;
+  position: relative;
+  top: 10px;
 }
 .NavBar-header-link span{
   text-decoration: none;
@@ -38,16 +37,13 @@ a{
 
   .NavBar-burger{
     display: block;
+    position: absolute;
+    top: 20px;
+    right: 22px;
   }
 
   .NavBar-header.responsive{
-    position: relative;
-  }
-
-  .NavBar-header.responsive .Navbar-burger{
     position: absolute;
-    right: 0px;
-    top: 0px;
   }
 
   .NavBar-header.responsive .NavBar-header-link{
@@ -55,4 +51,7 @@ a{
     display: block;
     text-align: left;
   }
+
+   
+  
 }
